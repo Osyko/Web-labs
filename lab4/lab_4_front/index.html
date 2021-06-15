@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beer</title>
+    <script src="script.js"></script>
+</head>
+<body>
+<h1>List of companies</h1>
+
+<form>
+    <h4>Get the list of companies: <input type="button" value="Show the List" onclick="ReadAll()"></h4>
+
+</form>
+<form>
+    <h4>Get the company by id: <input type="button" value="Get the company by id" onclick="ById()"></h4>
+    <p><input type="number" min="0" id="get_id"></p>
+    <h4 id="by_id"></h4>
+
+</form>
+<form>
+    <h4>Add company: <input type="button" value="Add company" onclick="Add()"></h4>
+    <p><input type="text" placeholder="Name of company: " id="nameofcompany"></p>
+    <p><input type="text" placeholder="Type of beer: " id="typeofbeer"></p>
+</form>
+{% comment %} <form>
+    <h4>Change the information <input type="button" value="Change the information" onclick="Update()"></h4>
+    <input type="number" placeholder="id" id="update_id">
+    <p><input type="text" placeholder="Name of company: " id="upnameofcompany"></p>
+    <p><input type="text" placeholder="Type of beer: " id="uptypeofbeer"></p>
+
+</form> {% endcomment %}
+<form>
+    <h4>Delete the list<input type="button" value="Delete the list" onclick="Delete_all()"></h4>
+    <p><input type="number" placeholder="id" id="delete_id"></p>
+
+</form>
+<h2>----------------------------------------</h2>
+<h2 id="deductedlist"></h2>
+</body>
+</html>

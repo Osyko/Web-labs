@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "C:\\Users\\d_osyko\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "python.autoComplete.extraPaths": [
+        "C:\\Users\\d_osyko\\Desktop\\Web-labs\\lab3"
+    ],
+    "python.analysis.extraPaths": [
+        "C:\\Users\\d_osyko\\Desktop\\Web-labs\\lab3"
+    ]
+}
